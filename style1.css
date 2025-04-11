@@ -1,0 +1,100 @@
+ /* Larger input boxes */
+    .stTextInput > div > div > input, 
+    .stNumberInput > div > div > input, 
+    .stSelectbox > div > div > div,
+    .stDateInput > div > div > input {
+        background-color: #f8f9fa;
+        border: 1px solid #ced4da;
+        border-radius: 6px;
+        padding: 12px 15px;  /* Increased padding */
+        font-size: 18px;     /* Larger font size */
+        height: 45px;        /* Explicit height */
+        box-sizing: border-box;
+    }
+
+    /* 顧客名の入力フィールドの文字サイズを大きく */
+    .stTextInput > div > div > input[placeholder="差益"] {
+        font-size: 24px;
+    }
+
+    /* 手数料の表示の文字サイズを大きく */
+    .stMarkdown > div > p {
+        font-size: 24px;
+        font-weight: bold;
+    }
+
+    /* Ensure dropdowns are also large */
+    .stSelectbox > div > div {
+        min-height: 45px;
+    }
+    /* Wide layout and container styling */
+    .reportview-container .main .block-container {
+        max-width: 1600px;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    /* Remove default white spaces */
+    .stColumnContainer {
+        margin-bottom: 10px !important;
+    }
+    .stColumn > div {
+        margin-bottom: 10px !important;
+    }
+
+    /* Main title styling */
+    .title {
+        font-size: 2.5rem;
+        color: #2c3e50;
+        text-align: center;
+        margin-bottom: 1.5rem;
+        font-weight: bold;
+    }
+
+    /* Sidebar styling */
+    .css-1aumxhk {  
+        background-color: #f4f6f7;
+        border-right: 5px solid #e0e0e0;
+    }
+
+    /* Card-like containers */
+    .stCard {
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        padding: 20px;
+        margin-bottom: 20px;
+        transition: all 0.3s ease;
+    }
+
+    .stCard:hover {
+        box-shadow: 0 6px 8px rgba(0,0,0,0.15);
+        transform: translateY(-3px);
+    }
+
+    /* Input and select styling */
+    .stTextInput > div > div > input, 
+    .stNumberInput > div > div > input, 
+    .stSelectbox > div > div > div {
+        background-color: #f8f9fa;
+        border: 1px solid #ced4da;
+        border-radius: 6px;
+        padding: 10px;
+    }
+
+    /* Button styling */
+    .stButton > button {
+        background-color: #3498db;
+        color: white;
+        border-radius: 6px;
+        border: none;
+        padding: 10px 20px;
+        transition: background-color 0.3s ease;
+    }
+
+    .stButton > button:hover {
+        background-color: #2980b9;
+    }
+    .stSpinner > div {
+        border-color: #3498db transparent #3498db transparent !important;
+    }
